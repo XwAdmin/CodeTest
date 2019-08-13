@@ -20,6 +20,7 @@ void Form_tree::addItem()
     //0
     //1
     //3
+    model->clear();
     model->setHorizontalHeaderLabels( QStringList()<<"BBX总计：20");
     QList<QStandardItem*> item_root;
     QList<QStandardItem*> item_childen;
