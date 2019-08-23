@@ -1,0 +1,1 @@
+python.exe -m PyQt5.uic.pyuic Ui_Main.ui -o Ui_Main.py
