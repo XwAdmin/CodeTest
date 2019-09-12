@@ -34,5 +34,6 @@ void Form::onChanged(QString str)
     ui->listWidget->addItem( "01123.txt");
     ui->listWidget->addItem( "001.txt");
 
-    ui->listWidget->setCurrentItem( ui->listWidget->findItems("1", Qt::MatchContains).at(0) );
+    ui->listWidget->setCurrentItem( ui->listWidget->findItems("1123", Qt::MatchContains).at(0) );//以文本定位
+    ui->listWidget->findItems("1123", Qt::MatchContains).at(0)->setBackgroundColor( QColor("#9ac733"));//设置背景色
 }

@@ -1,8 +1,14 @@
 #not need to push
+/__pycache__
+__pycache__/
 */__pycache__
-*/build
-*/build*
-*/bak
+/build
+/build*
+
+bak/
+
+*.idea
+labs/
+
 *.user
-*/.idea
-*/labs
+*.o
