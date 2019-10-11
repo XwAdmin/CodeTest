@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>265</width>
+    <height>269</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_1">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;---当前统计---&lt;/p&gt;&lt;p&gt;您于 &lt;span style=&quot; color:#ff557f;&quot;&gt;%1 &lt;/span&gt;开始本次标注&lt;/p&gt;&lt;p&gt;截止到 &lt;span style=&quot; color:#ff557f;&quot;&gt;%2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;你已经工作了 &lt;span style=&quot; color:#ff557f;&quot;&gt;%3天%4 &lt;/span&gt;了&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;---历史统计---&lt;/p&gt;&lt;p&gt;你共工作时长 &lt;span style=&quot; color:#ff557f;&quot;&gt;%5天%6&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>统计</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
