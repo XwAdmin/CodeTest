@@ -2,10 +2,12 @@
 /__pycache__
 __pycache__/
 */__pycache__
+
 /build
 /build*
 
 bak/
+tmp/
 
 *.idea
 labs/
