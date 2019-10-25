@@ -1,6 +1,7 @@
 #include "form.h"
 #include "ui_form.h"
 QDir dir;
+#include <QLayout>
 
 Form::Form(QWidget *parent) :
     QWidget(parent),
@@ -16,6 +17,7 @@ Form::Form(QWidget *parent) :
     dir.setFilter(QDir::Files);//设置过滤器
     dir.setNameFilters(QStringList()<<"*.txt");//设置文件名过滤
     this->onChanged("");
+//    this->layout()->deleteLater();
 }
 
 Form::~Form()
